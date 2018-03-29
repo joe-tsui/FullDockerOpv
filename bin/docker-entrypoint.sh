@@ -33,6 +33,6 @@ if ! [ -e /etc/openvpn//$CLIENT_NAME.ovpn ]; then
   ovpn_getclient $CLIENT_NAME > /etc/openvpn/$CLIENT_NAME.ovpn
 fi
 
-curl -4 "https://xzmc-bme.eu.org:123456xuxu@dyn.dns.he.net/nic/update?hostname=xzmc-bme.eu.org"
+curl -4 "https://xzmc-bme.eu.org:123456xu@dyn.dns.he.net/nic/update?hostname=xzmc-bme.eu.org"
 
 exec "$@"
