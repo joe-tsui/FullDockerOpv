@@ -17,7 +17,7 @@ ENV EASYRSA_VARS_FILE $OPENVPN/vars
 ENV EASYRSA_BATCH true
 ENV CLIENT_NAME ClientForQiang
 ENV DEBUG 0
-ENV DOMAIN beiying.eu.org
+ENV DOMAIN xzmc-bme.eu.org
 
 # Prevents refused client connection because of an expired CRL
 ENV EASYRSA_CRL_DAYS 3650
